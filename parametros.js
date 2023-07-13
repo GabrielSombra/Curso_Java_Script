@@ -1,13 +1,13 @@
 // parâmetros de função
 
               //2       //2
-// function soma(numero1, numero2) {
-//   return numero1 + numero2;
-// }
+function soma(numero1, numero2) {
+  return numero1 + numero2;
+}
 
-// console.log(soma(2, 2))
-// console.log(soma(245, 20))
-// console.log(soma(-500, 60))
+console.log(soma(2, 2))
+console.log(soma(245, 20))
+console.log(soma("Gabriel", "Sombra"))
 
 // parâmetros x argumentos
 
@@ -23,6 +23,7 @@ function soma(numero1, numero2) {
   return numero1 + numero2;
 }
 
+// valor padrão da função, caso nãos eja enviado o argumento, ele asusme o valor padrão, nesse caso 1
 function multiplica(numero1 = 1, numero2 = 1) {
   return numero1 * numero2;
 }

@@ -20,3 +20,8 @@ const somaNumerosPequenos = (num1, num2) => {
 
 // operador maior ou igual que
 // >=
+
+const numero = 256
+const convertidoEmString = new String(numero)
+console.log(convertidoEmString)
+console.log(numero.toString())
